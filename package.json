@@ -1,0 +1,39 @@
+{
+  "name": "jwt-keygrip",
+  "version": "0.2.0",
+  "description": "Applies the concepts of keygrip to a simple implementation of JWT based on node-jws.",
+  "main": "./lib/index.js",
+  "keywords": [
+    "npm",
+    "jwt",
+    "keygrip",
+    "json",
+    "web",
+    "token",
+    "bearer"
+  ],
+  "homepage":"https://github.com/macprog-guy/jwt-keygrip",
+  "author": {
+    "name": "Eric Methot",
+    "email": "eric@macprog.com",
+    "url": "https://github.com/macprog-guy/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macprog-guy/jwt-keygrip.git"
+  },
+  "bugs": {
+    "url": "http://github.com/macprog-guy/jwt-keygrip/issues"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha -R spec --harmony -u bdd --recursive ./test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jws": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
