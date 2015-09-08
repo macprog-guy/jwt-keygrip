@@ -1,6 +1,6 @@
 {
   "name": "jwt-keygrip",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Applies the concepts of keygrip to a simple implementation of JWT based on node-jws.",
   "main": "./lib/index.js",
   "keywords": [
