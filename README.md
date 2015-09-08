@@ -8,7 +8,7 @@ jwt-keygrip is a wrapper around [node-jws](https://github.com/brianloveswords/no
 
 # Usage
 
-##### `constructor(String|Array&lt;String&gt; keys [, String algorithm])`
+##### `constructor(String|Array<String> keys [, String algorithm])`
 
 Returns a new JWT encoder/decoder that uses an array of keys to validate tokens but only the first key to encode tokens.
 
