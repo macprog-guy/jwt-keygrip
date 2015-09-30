@@ -16,14 +16,13 @@ Returns a new JWT encoder/decoder that uses an array of keys to validate tokens 
 - `algorithm`: should be one of the encoding algorithms that jws supports. Defaults to 'HS512'.
 
 ```js
-
 var jwt = require('jwt-keygrip')('12345,54321,xxoxx,ooxoo')
-
 ```
 
 
 
 <hr>
+
 ##### `encode(Object payload [,Object headers]) -> JWT`
 
 Encodes a payload and optional headers to return a signed JWT.
